@@ -11,10 +11,11 @@ html {
 }
 
 header {
-  display: block;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   background-color: #e2e2e2;
-  padding: 1rem;
 }
 body {
   background-color: #fff;
