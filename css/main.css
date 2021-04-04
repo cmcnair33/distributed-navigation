@@ -17,22 +17,21 @@ header {
   align-items: center;
   background-color: #e2e2e2;
 }
+
 body {
   background-color: #fff;
-  margin: 0rem;
+  margin: 0;
 }
 
 nav ul {
   padding: 0;
-  margin: 0;
   list-style-type: none;
   display: flex;
-  justify-content: right;
 }
 
 nav ul li {
-  margin: 0 .6em;
-  display: inline;
+  margin: .6em;
+  display: inline-flex;
 }
 
 nav a {
@@ -43,21 +42,19 @@ nav a {
 a:hover {
   color: #fff;
 }
+
 img {
   width: 2rem;
 }
 
 header h1 {
-  display: inline;
+  margin: 0 auto;
 }
 
 header img {
-  display: inline;
+  margin: 0;
 }
 
 header p {
-  display: inline;
-  max-width: 25em;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
 }
