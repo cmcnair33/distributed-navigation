@@ -1,30 +1,62 @@
 html {
   box-sizing: border-box;
   font-family: sans-serif;
-  font-size: 2em;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  display: flex;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-nav {
+header {
+  display: block;
+  flex-direction: column;
   background-color: #e2e2e2;
-  padding: 1em;
+  padding: 1rem;
+}
+body {
+  background-color: #fff;
+  margin: 0rem;
 }
 
-nav > ul {
+nav ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
-nav > ul li {
-  margin: 0 .5em;
+nav ul li {
+  margin: 0 .6em;
+  display: inline;
 }
 
+nav a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+a:hover {
+  color: #fff;
+}
 img {
   width: 2rem;
+}
+
+header h1 {
+  display: inline;
+}
+
+header img {
+  display: inline;
+}
+
+header p {
+  display: inline;
+  max-width: 25em;
+  margin-left: auto;
+  margin-right: auto;
 }
